@@ -12,10 +12,10 @@
         <div class="logo">KIPROTICH AMOS KAILEL Research Projects</div>
         <nav>
             <ul>
-                <li><a href="javascript:void(0);" onclick="scrollToSection('about')">About</a></li>
-                <li><a href="javascript:void(0);" onclick="scrollToSection('projects')">Projects</a></li>
-                <li><a href="javascript:void(0);" onclick="scrollToSection('methodology')">Methodology</a></li>
-                <li><a href="javascript:void(0);" onclick="scrollToSection('contact')">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#methodology">Methodology</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -35,51 +35,70 @@
 
     <!-- Projects Section -->
     <section id="projects">
-        <h2>Our Research Projects</h2>
-        <div class="project">
-            <h3>Project 1: Artificial Intelligence in Healthcare</h3>
-            <p>This project explores the application of AI in improving healthcare systems, focusing on diagnostic tools and treatment prediction.</p>
+        <h2>Types of Research Projects</h2>
+        <p>Click on each category to explore the details of different research project types.</p>
+
+        <!-- Research Project Types -->
+        <div class="project-type">
+            <button class="collapsible">Descriptive Research Projects</button>
+            <div class="content">
+                <ul>
+                    <li>Case Studies</li>
+                    <li>Observational Studies</li>
+                    <li>Survey Research</li>
+                </ul>
+            </div>
         </div>
-        <div class="project">
-            <h3>Project 2: Climate Change Solutions</h3>
-            <p>A project aimed at researching sustainable solutions to mitigate the effects of climate change, with a focus on renewable energy.</p>
+        <div class="project-type">
+            <button class="collapsible">Experimental Research Projects</button>
+            <div class="content">
+                <ul>
+                    <li>Laboratory Experiments</li>
+                    <li>Field Experiments</li>
+                    <li>Quasi-Experimental Studies</li>
+                </ul>
+            </div>
         </div>
-        <div class="project">
-            <h3>Project 3: Smart Cities Development</h3>
-            <p>This project focuses on developing smart city technologies to improve urban living, including smart transportation and energy management.</p>
+        <div class="project-type">
+            <button class="collapsible">Exploratory Research Projects</button>
+            <div class="content">
+                <ul>
+                    <li>Pilot Studies</li>
+                    <li>Literature Reviews</li>
+                    <li>Focus Groups</li>
+                </ul>
+            </div>
         </div>
     </section>
 
     <!-- Methodology Section -->
     <section id="methodology">
         <h2>Our Research Methodology</h2>
-        <p>We employ a variety of methodologies to ensure the accuracy and relevance of our findings. These include qualitative research, quantitative analysis, field experiments, and computational models.</p>
-        <ol>
-            <li>Data Collection: Gathering primary and secondary data from reliable sources.</li>
-            <li>Analysis: Analyzing data using statistical tools and software.</li>
-            <li>Reporting: Presenting findings through reports, publications, and presentations.</li>
-        </ol>
+        <p>We employ a variety of methodologies to ensure the accuracy and relevance of our findings:</p>
+        <ul>
+            <li>Data Collection</li>
+            <li>Quantitative and Qualitative Analysis</li>
+            <li>Fieldwork and Reporting</li>
+        </ul>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>If you have any questions about our research projects or would like to collaborate, please don't hesitate to reach out. You can contact us via email or the form below:</p>
+        <p>Email: <a href="mailto:kailelkiprotich4@gmail.com">kailelkiprotich4@gmail.com</a></p>
+        <p>Phone: <a href="tel:+254705636703">+254 705 636 703</a></p>
+        <p>Or reach out via the form below:</p>
         <form>
-            <input type="text" id="name" placeholder="Your Name" required><br>
-            <input type="email" id="email" placeholder="Your Email" required><br>
-            <textarea id="message" placeholder="Your Message" required></textarea><br>
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
         </form>
     </section>
 
-    <!-- Footer Section -->
     <footer>
         <p>© 2024 KIPROTICH AMOS KAILEL Research Projects. All rights reserved.</p>
     </footer>
-
-    <!-- Scroll to Top Button -->
-    <button id="scrollTopBtn" onclick="scrollToTop()">↑</button>
 
     <script src="script.js"></script>
 </body>
