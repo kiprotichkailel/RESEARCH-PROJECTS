@@ -123,7 +123,40 @@
             <input type="email" id="email" placeholder="Your Email" required>
             <textarea id="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send Message</button>
-        </form>
+        </form> <!-- Research Application Form -->
+        <form id="researchForm">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Your Full Name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your Email Address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="researchInterest">Research Project Interest</label>
+                <select id="researchInterest" name="researchInterest" required>
+                    <option value="" disabled selected>Select Research Area</option>
+                    <option value="descriptive">Descriptive Research Projects</option>
+                    <option value="experimental">Experimental Research Projects</option>
+                    <option value="exploratory">Exploratory Research Projects</option>
+                    <option value="applied">Applied Research Projects</option>
+                    <option value="basic">Basic Research Projects</option>
+                    <option value="evaluation">Evaluation Research Projects</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Additional Comments</label>
+                <textarea id="comments" name="comments" placeholder="Any additional comments or questions?" rows="4"></textarea>
+            </div>
     </section>
 
     <footer>
